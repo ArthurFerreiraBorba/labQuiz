@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>LabQuiz</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">LabQuiz</h1>
+        <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem ab pariatur, quisquam veniam minus fuga tempore obcaecati quam rem aspernatur officia maiores suscipit ducimus, ad harum? Eius, cupiditate debitis!</p>
+        
+        <form class="formNomeUsuario">
+            <label for="nomeUsuario" class="labelNomeUsuario">nome</label>
+            <input type="text" id="nomeUsuario" class="inputText" placeholder="digite o seu nome">
+            <button type="submit" class="buttonNomeUsuario">iniciar</button>
+        </form>
+    </header> 
+
+    <main>
+        <form class="formQuiz">
+
+            <div class="quizQuestion">
+            <label for="quiz1" class="labelQuiz">Como se define um estilo inline em HTML?</label>
+            <input type="text" id="quiz1" class="inputText" placeholder="digite a resposta aqui">
+            </div>
+
+            <div class="quizQuestion">
+            <p class="labelQuiz">Qual é a tag usada para criar uma lista ordenada em HTML?</p>
+            <input type="radio" id="quiz2Op1" class="inputQuiz" name="quiz2">
+            <label for="quiz2Op1">ol</label>
+            <input type="radio" id="quiz2Op2" class="inputQuiz" name="quiz2">
+            <label for="quiz2Op2">ul</label>
+            <input type="radio" id="quiz2Op3" class="inputQuiz" name="quiz2">            
+            <label for="quiz2Op3">li</label>
+            <input type="radio" id="quiz2Op4" class="inputQuiz" name="quiz2">            
+            <label for="quiz2Op4">order-list</label>
+            </div>
+
+            <div class="quizQuestion">
+            <p class="labelQuiz">Qual propriedade CSS é usada para alterar a cor do texto?</p>
+            <input type="radio" id="quiz3Op1" class="inputQuiz" name="quiz3">
+            <label for="quiz3Op1">font-color</label>
+            <input type="radio" id="quiz3Op2" class="inputQuiz" name="quiz3">
+            <label for="quiz3Op2">color</label>
+            <input type="radio" id="quiz3Op3" class="inputQuiz" name="quiz3">            
+            <label for="quiz3Op3">background-color</label>
+            <input type="radio" id="quiz3Op4" class="inputQuiz" name="quiz3">            
+            <label for="quiz3Op4">text-color</label>
+            </div>
+
+            <div class="quizQuestion">
+            <label for="quiz4" class="labelQuiz">Como se referencia um arquivo CSS externo em um documento HTML?</label>
+            <input type="text" id="quiz4" class="inputText" placeholder="digite a resposta aqui">
+            </div>
+
+            <div class="quizQuestion">
+            <p class="labelQuiz">Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um texto?</p>
+            <input type="radio" id="quiz5Op1" class="inputQuiz" name="quiz5">
+            <label for="quiz5Op1">sim</label>
+            <input type="radio" id="quiz5Op2" class="inputQuiz" name="quiz5">
+            <label for="quiz5Op2">não</label>
+            </div>
+
+            <div class="quizQuestion">
+            <p class="labelQuiz">Qual propriedade CSS é usada para alterar a cor do texto?</p>
+            <input type="checkbox" id="quiz6Op1" class="inputQuiz" name="quiz6">
+            <label for="quiz6Op1">height</label>
+            <input type="checkbox" id="quiz6Op2" class="inputQuiz" name="quiz6">
+            <label for="quiz6Op2">size</label>
+            <input type="checkbox" id="quiz6Op3" class="inputQuiz" name="quiz6">            
+            <label for="quiz6Op3">width</label>
+            <input type="checkbox" id="quiz6Op4" class="inputQuiz" name="quiz6">            
+            <label for="quiz6Op4">max-width</label>
+            </div>
+        
+            <div class="quizQuestion">
+            <p class="labelQuiz">Como se cria um comentário em CSS?</p>
+            <input type="checkbox" id="quiz7Op1" class="inputQuiz" name="quiz7">
+            <label for="quiz7Op1">&lt;!-- --&gt;</label>
+            <input type="checkbox" id="quiz7Op2" class="inputQuiz" name="quiz7">
+            <label for="quiz7Op2">//</label>
+            <input type="checkbox" id="quiz7Op3" class="inputQuiz" name="quiz7">            
+            <label for="quiz7Op3">/* */</label>
+            </div>
+
+            <div class="quizQuestion">
+            <p class="labelQuiz">Qual é a propriedade CSS usada para definir a altura de um elemento?</p>
+            <input type="checkbox" id="quiz8Op1" class="inputQuiz" name="quiz8">
+            <label for="quiz8Op1">height</label>
+            <input type="checkbox" id="quiz8Op2" class="inputQuiz" name="quiz8">
+            <label for="quiz8Op2">size</label>
+            <input type="checkbox" id="quiz8Op3" class="inputQuiz" name="quiz8">            
+            <label for="quiz8Op3">min-height</label>
+            <input type="checkbox" id="quiz8Op4" class="inputQuiz" name="quiz8">            
+            <label for="quiz8Op4">max-height</label>
+            </div>
+
+            <button type="submit" class="buttonFinalizar">finalizar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>github:</p>
+        <a href="https://github.com/ArthurFerreiraBorba">Arthur</a>
+    </footer>
+</body>
+</html>

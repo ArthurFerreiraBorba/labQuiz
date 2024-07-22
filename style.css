@@ -1,0 +1,81 @@
+* {
+    color: white;
+}
+body {
+    background-color: rgb(40, 42, 50);
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 38, 46);
+    text-align: center;
+    border: 3px solid rgb(48, 51, 61);
+    border-radius: 100px;
+    margin: 10vh 10vw;
+    width: 80vw;
+    height: 80vh;
+}
+.title {
+    margin: 10vh 30vw;
+    width: 20vw;
+    font-size: 50px;
+}
+.paragrafo {
+    margin: 5vh 15vw;
+    width: 50vw;
+    font-size: 20px;
+}
+.formNomeUsuario {
+    margin: 10vh 15vw;
+    height: 25vh;
+    width: 50vw;
+}
+.labelNomeUsuario {
+    margin: 0vh 32vw 0vh 12vw;
+    width: 25vw;
+    height: 5vh;
+    font-size: 25px;
+}
+.inputText {
+    background-color: rgb(40, 42, 50);
+    width: 25vw;
+    height: 4vh;
+    font-size: 20px;
+    border: 3px solid rgb(48, 51, 61);
+    border-radius: 50px;
+}
+.buttonNomeUsuario {
+    background-color: rgb(40, 42, 50);
+    width: 14vw;
+    margin: 5vh 18vw;
+    height: 5vh;
+    font-size: 20px;
+    border: 3px solid rgb(48, 51, 61);
+    border-radius: 50px;
+}
+.formQuiz {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 38, 46);
+    text-align: start;
+    border: 3px solid rgb(48, 51, 61);
+    border-radius: 100px;
+    margin: 10vh 10vw;
+    width: 80vw;
+    height: 1050px;
+}
+.labelQuiz {
+    font-size: 20px;
+    display: block;
+    margin: 10px;
+}
+.quizQuestion {
+    margin: 50px;
+}
+.buttonFinalizar {
+    background-color: rgb(40, 42, 50);
+    width: 14vw;
+    margin: 5vh 5vw;
+    height: 5vh;
+    font-size: 20px;
+    border: 3px solid rgb(48, 51, 61);
+    border-radius: 50px;
+}
